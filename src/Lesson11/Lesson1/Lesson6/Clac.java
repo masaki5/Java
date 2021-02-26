@@ -1,5 +1,5 @@
 package Lesson11.Lesson1.Lesson6;
-
+import Lesson11.Lesson1.Lesson6.CalcLogic;
 public class Clac {
     public static void main(String[]args){
         int a = 10;
