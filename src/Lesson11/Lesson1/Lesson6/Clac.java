@@ -8,5 +8,7 @@ public class Clac {
         int delta = CalcLogic.hiku(a, b);
         System.out.println(total);
         System.out.println(delta);
+        System.out.println(delta);
+        System.out.println(delta);
     }
 }
