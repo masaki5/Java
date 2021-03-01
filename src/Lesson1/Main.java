@@ -7,6 +7,11 @@ public class Main {
 //        フィールドに初期値をセット
         h.name = "ミナト";
         h.hp = 100;
+
+        Hero h2;
+        h2 = h;
+        h2.hp = 200;
+        System.out.println(h.hp);
 //        System.out.println("勇者" + h.name + "を生み出しました!");
 ////        勇者メソッドを呼び出していく
 //        h.sit(5);
