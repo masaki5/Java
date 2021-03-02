@@ -1,7 +1,7 @@
-package Lesson1;
+package Lesson10;
 
 public class Matango {
-    int hp = 100;
+    int hp;
     final int LEVEL = 10;
     char suffix;
     public void run(){
