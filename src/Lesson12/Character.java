@@ -6,5 +6,5 @@ public abstract class Character {
     public void run(){
 
     }
-    public abstract void attack(Matango m);
+    public abstract void attack(Monster m);
 }
