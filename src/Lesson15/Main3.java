@@ -2,11 +2,10 @@ package Lesson15;
 
 public class Main3 {
     public static void main(String[]args){
-        String s = "nameIs";
-        isValidPlayerName(s);
+        String s = "namehane";
         System.out.println(isValidPlayerName(s));
+        System.out.println(isValidPlayerName2(s));
     }
-
     public static boolean isValidPlayerName(String name){
         if (name.length() != 8) {
             return false;
@@ -22,5 +21,8 @@ public class Main3 {
             }
         }
         return true;
+    }
+    public static boolean isValidPlayerName2(String name){
+        return name.matches("[A-Z][A-Z0-9]{7}");
     }
 }
