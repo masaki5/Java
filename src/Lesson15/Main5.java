@@ -5,7 +5,7 @@ public class Main5 {
         String s = "abc.def:ghi";
         String[] words = s.split("[.:]");
         for (String w : words) {
-            System.out.println(w + "->");
+            System.out.print(w + "->");
         }
     }
 }
