@@ -13,5 +13,7 @@ public class Main7 {
 
         String ss = String.format("%d日で%sわかる",3,"スッキリ");
         System.out.println(ss);
+
+        System.out.printf("製品番号%s-%2d", "SJV", 3);
     }
 }
