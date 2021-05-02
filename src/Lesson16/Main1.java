@@ -14,7 +14,7 @@ public class Main1 {
 
         Integer i1 = Integer.valueOf(16);
         int i2 = i1.intValue();
-        System.out.println(i1);0
+        System.out.println(i1);
         System.out.println(i2);
     }
 }
